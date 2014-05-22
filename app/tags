@@ -1,0 +1,121 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AVERAGE_BUFFER_SIZE	.\metal2.c	36;"	d	file:
+CALIBRATION_FAILURE	.\metal2.c	/^    CALIBRATION_FAILURE,$/;"	e	enum:__anon1	file:
+CALIBRATION_RETRY_LIMIT	.\metal2.c	35;"	d	file:
+CALIBRATION_SAMPLE_COUNT	.\metal2.c	39;"	d	file:
+CMD_COMPLETE_SIG	.\spi_2.h	8;"	d
+CS_TABLE	.\spi_2.h	/^    CS_TABLE(EXPAND_AS_ENUM)$/;"	e	enum:__anon13
+CS_TABLE	.\spi_2.h	18;"	d
+DISABLED	.\metal2.c	/^    DISABLED = 0,$/;"	e	enum:__anon1	file:
+DISABLE_METAL_SIG	.\metal2.h	9;"	d
+ENABLED	.\metal2.c	/^    ENABLED,$/;"	e	enum:__anon1	file:
+ENABLE_METAL_SIG	.\metal2.h	8;"	d
+EXPAND_AS_ENUM	.\spi_2.h	33;"	d
+FILTER_BUFFER_SIZE	.\metal2.c	38;"	d	file:
+LDC1000_REG_CLKCONFIG	.\metal2.c	21;"	d	file:
+LDC1000_REG_FREQCTRLSB	.\metal2.c	31;"	d	file:
+LDC1000_REG_FREQCTRMID	.\metal2.c	32;"	d	file:
+LDC1000_REG_FREQCTRMSB	.\metal2.c	33;"	d	file:
+LDC1000_REG_INTCONFIG	.\metal2.c	26;"	d	file:
+LDC1000_REG_LDCCONFIG	.\metal2.c	20;"	d	file:
+LDC1000_REG_PROXLSB	.\metal2.c	29;"	d	file:
+LDC1000_REG_PROXMSB	.\metal2.c	30;"	d	file:
+LDC1000_REG_PWRCONFIG	.\metal2.c	27;"	d	file:
+LDC1000_REG_REVID	.\metal2.c	16;"	d	file:
+LDC1000_REG_RPMAX	.\metal2.c	17;"	d	file:
+LDC1000_REG_RPMIN	.\metal2.c	18;"	d	file:
+LDC1000_REG_SENSORFREQ	.\metal2.c	19;"	d	file:
+LDC1000_REG_STATUS	.\metal2.c	28;"	d	file:
+LDC1000_REG_THRESHILSB	.\metal2.c	22;"	d	file:
+LDC1000_REG_THRESHIMSB	.\metal2.c	23;"	d	file:
+LDC1000_REG_THRESLOLSB	.\metal2.c	24;"	d	file:
+LDC1000_REG_THRESLOMSB	.\metal2.c	25;"	d	file:
+METAL2_H	.\metal2.h	3;"	d
+METAL2_SPI2_THREAD_DEPENDENCY_SIG	.\metal2.h	10;"	d
+METAL2_TIMER_SEED	.\metal2.c	40;"	d	file:
+METAL_LEVEL_NO_METAL	.\metal2.h	/^    METAL_LEVEL_NO_METAL,$/;"	e	enum:__anon11
+METAL_LEVEL_STRONG_METAL	.\metal2.h	/^    METAL_LEVEL_STRONG_METAL$/;"	e	enum:__anon11
+METAL_LEVEL_WEAK_METAL	.\metal2.h	/^    METAL_LEVEL_WEAK_METAL,$/;"	e	enum:__anon11
+NUM_SLAVES	.\spi_2.h	/^    NUM_SLAVES$/;"	e	enum:__anon13
+READ_8_CMD	.\spi_2.h	/^    READ_8_CMD$/;"	e	enum:__anon12
+SPI2_GPIO_TABLE	.\spi_2.h	11;"	d
+SPI_2_H	.\spi_2.h	3;"	d
+STD_DEV_BUFFER_SIZE	.\metal2.c	37;"	d	file:
+WRITE_16_CMD	.\spi_2.h	/^    WRITE_16_CMD,$/;"	e	enum:__anon12
+WRITE_2X8_CMD	.\spi_2.h	/^    WRITE_2X8_CMD,$/;"	e	enum:__anon12
+addr	.\spi_2.h	/^    uint8_t addr;$/;"	m	struct:__anon14
+amplitude	.\metal2.c	/^        uint8_t amplitude : 2;$/;"	m	struct:__anon2::__anon3	file:
+average	.\metal2.c	/^    int32_t average;$/;"	m	struct:__anon10	file:
+baseline_diff	.\metal2.c	/^    int16_t baseline_diff;$/;"	m	struct:__anon10	file:
+bits	.\metal2.c	/^    } bits;$/;"	m	union:__anon2	typeref:struct:__anon2::__anon3	file:
+bits	.\metal2.c	/^    } bits;$/;"	m	union:__anon4	typeref:struct:__anon4::__anon5	file:
+bits	.\metal2.c	/^    } bits;$/;"	m	union:__anon6	typeref:struct:__anon6::__anon7	file:
+bits	.\metal2.c	/^    } bits;$/;"	m	union:__anon8	typeref:struct:__anon8::__anon9	file:
+cal_retry_count	.\metal2.c	/^    uint8_t cal_retry_count;$/;"	m	struct:__anon10	file:
+cal_status	.\metal2.c	/^    uint8_t cal_status;$/;"	m	struct:__anon10	file:
+change_state	.\metal2.c	/^static void change_state(metal2_t * me, metal2_state_t state)$/;"	f	file:
+clock_config	.\metal2.c	/^    uint8_t clock_config;$/;"	m	struct:__anon10	file:
+clock_config_t	.\metal2.c	/^} clock_config_t;$/;"	t	typeref:union:__anon4	file:
+clock_pd	.\metal2.c	/^        uint8_t clock_pd :  1;$/;"	m	struct:__anon4::__anon5	file:
+clock_sel	.\metal2.c	/^        uint8_t clock_sel : 1;$/;"	m	struct:__anon4::__anon5	file:
+command	.\spi_2.h	/^    spi_2_rw_cmd_t command;$/;"	m	struct:__anon14
+comp_thresh_hi	.\metal2.c	/^    uint16_t comp_thresh_hi;$/;"	m	struct:__anon10	file:
+comp_thresh_lo	.\metal2.c	/^    uint16_t comp_thresh_lo;$/;"	m	struct:__anon10	file:
+data	.\metal2.c	/^    uint8_t data;$/;"	m	union:__anon2	file:
+data	.\metal2.c	/^    uint8_t data;$/;"	m	union:__anon4	file:
+data	.\metal2.c	/^    uint8_t data;$/;"	m	union:__anon6	file:
+data	.\metal2.c	/^    uint8_t data;$/;"	m	union:__anon8	file:
+data	.\spi_2.h	/^    uint16_t data;$/;"	m	struct:__anon14
+debounce_counter	.\metal2.c	/^    uint16_t debounce_counter;$/;"	m	struct:__anon10	file:
+delay	.\metal2.c	/^    uint32_t delay;$/;"	m	struct:__anon10	file:
+disable_metal	.\metal2.c	/^static void disable_metal(metal2_t * me)$/;"	f	file:
+enable_metal	.\metal2.c	/^static void enable_metal(metal2_t * me)$/;"	f	file:
+freq_data	.\metal2.c	/^    uint32_t freq_data;$/;"	m	struct:__anon10	file:
+g_init_flag	.\metal2.c	/^static uint32_t g_init_flag;$/;"	v	file:
+g_metal2	.\metal2.c	/^static metal2_t g_metal2;$/;"	v	file:
+g_metal2_state	.\metal2.c	/^static uint8_t g_metal2_state;$/;"	v	file:
+get_prox_data	.\metal2.c	/^static void get_prox_data(metal2_t * me)$/;"	f	file:
+get_status	.\metal2.c	/^static void get_status(metal2_t * me)$/;"	f	file:
+int_pin_config	.\metal2.c	/^    uint8_t int_pin_config;$/;"	m	struct:__anon10	file:
+int_pin_config_t	.\metal2.c	/^} int_pin_config_t;$/;"	t	typeref:union:__anon6	file:
+ldc_config	.\metal2.c	/^    uint8_t ldc_config;$/;"	m	struct:__anon10	file:
+ldc_config_t	.\metal2.c	/^} ldc_config_t;$/;"	t	typeref:union:__anon2	file:
+ldc_status	.\metal2.c	/^    uint8_t ldc_status;$/;"	m	struct:__anon10	file:
+metal2_calibrate_baseline	.\metal2.c	/^uint8_t metal2_calibrate_baseline(void)$/;"	f
+metal2_create	.\metal2.c	/^void metal2_create(uint32_t init_flag)$/;"	f
+metal2_get_level	.\metal2.c	/^uint8_t metal2_get_level(void)$/;"	f
+metal2_state_t	.\metal2.c	/^} metal2_state_t;$/;"	t	typeref:enum:__anon1	file:
+metal2_t	.\metal2.c	/^} metal2_t;$/;"	t	typeref:struct:__anon10	file:
+metal_level	.\metal2.c	/^    uint8_t metal_level;$/;"	m	struct:__anon10	file:
+metal_level_t	.\metal2.h	/^} metal_level_t;$/;"	t	typeref:enum:__anon11
+mode	.\metal2.c	/^        uint8_t mode :      1;$/;"	m	struct:__anon8::__anon9	file:
+mode	.\metal2.c	/^        uint8_t mode :      3;$/;"	m	struct:__anon6::__anon7	file:
+p_buf	.\spi_2.h	/^    uint8_t *p_buf;$/;"	m	struct:__anon14
+power_config	.\metal2.c	/^    uint8_t power_config;$/;"	m	struct:__anon10	file:
+power_config_t	.\metal2.c	/^} power_config_t;$/;"	t	typeref:union:__anon8	file:
+prox_baseline	.\metal2.c	/^    uint16_t prox_baseline;$/;"	m	struct:__anon10	file:
+prox_data	.\metal2.c	/^    uint16_t prox_data;$/;"	m	struct:__anon10	file:
+prox_range	.\metal2.c	/^    uint16_t prox_range;$/;"	m	struct:__anon10	file:
+read_length	.\spi_2.h	/^    uint8_t read_length;$/;"	m	struct:__anon14
+resp_time	.\metal2.c	/^        uint8_t resp_time : 3;$/;"	m	struct:__anon2::__anon3	file:
+rev_id	.\metal2.c	/^    uint8_t rev_id;$/;"	m	struct:__anon10	file:
+rp_max	.\metal2.c	/^    uint8_t rp_max;$/;"	m	struct:__anon10	file:
+rp_min	.\metal2.c	/^    uint8_t rp_min;$/;"	m	struct:__anon10	file:
+sensor_freq	.\metal2.c	/^    uint8_t sensor_freq;$/;"	m	struct:__anon10	file:
+set_power_config	.\metal2.c	/^static void set_power_config(metal2_t * me, uint8_t power_config)$/;"	f	file:
+signal	.\spi_2.h	/^    uint32_t signal;$/;"	m	struct:__anon14
+slave_id	.\spi_2.h	/^    spi_2_slave_id_t slave_id;$/;"	m	struct:__anon14
+spi_2_mail_t	.\spi_2.h	/^} spi_2_mail_t;$/;"	t	typeref:struct:__anon14
+spi_2_rw_cmd_t	.\spi_2.h	/^} spi_2_rw_cmd_t;$/;"	t	typeref:enum:__anon12
+spi_2_slave_id_t	.\spi_2.h	/^} spi_2_slave_id_t;$/;"	t	typeref:enum:__anon13
+state	.\metal2.c	/^    metal2_state_t state;$/;"	m	struct:__anon10	file:
+std_dev	.\metal2.c	/^    int16_t std_dev;$/;"	m	struct:__anon10	file:
+unused	.\metal2.c	/^        uint8_t unused :    3;$/;"	m	struct:__anon2::__anon3	file:
+unused	.\metal2.c	/^        uint8_t unused :    5;$/;"	m	struct:__anon6::__anon7	file:
+unused	.\metal2.c	/^        uint8_t unused :    6;$/;"	m	struct:__anon4::__anon5	file:
+unused	.\metal2.c	/^        uint8_t unused :    7;$/;"	m	struct:__anon8::__anon9	file:
